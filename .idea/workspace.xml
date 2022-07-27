@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/browsers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/NADA-FWD/Selenium/MAVENSelenium/src/browsers",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,6 +65,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="" />
@@ -74,6 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658749703772</updated>
       <workItem from="1658749708356" duration="4873000" />
+      <workItem from="1658924082920" duration="4881000" />
+      <workItem from="1658931050041" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="Set up POM">
       <created>1658752451788</created>
@@ -102,5 +106,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up POM" />
     <option name="LAST_COMMIT_MESSAGE" value="Set up POM" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
