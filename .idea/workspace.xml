@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="">
+    <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="How to use Soft Assertions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OpenBrowserSoftAssertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenBrowserHardAssertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +50,59 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NADA-FWD\Selenium\MAVENSelenium\src\browsers" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="org.example" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.OpenBrowser">
-    <configuration name="OpenBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OpenBrowser" />
-      <module name="MAVENSelenium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.OpenBrowserSoftAssertion.validData">
+    <configuration name="OpenBrowserHardAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenBrowser" />
+      <option name="MAIN_CLASS_NAME" value="OpenBrowserHardAssertion" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenBrowser.validData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenBrowserHardAssertion.validData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenBrowser" />
+      <option name="MAIN_CLASS_NAME" value="OpenBrowserHardAssertion" />
       <option name="METHOD_NAME" value="validData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenBrowserHardAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenBrowser" />
+      <option name="MAIN_CLASS_NAME" value="OpenBrowserHardAssertion" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenBrowserSoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MAVENSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenBrowserSoftAssertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenBrowserSoftAssertion.validData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MAVENSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpenBrowserSoftAssertion" />
+      <option name="METHOD_NAME" value="validData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -90,10 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OpenBrowser" />
-        <item itemvalue="JUnit.OpenBrowser" />
-        <item itemvalue="JUnit.OpenBrowser.validData" />
-        <item itemvalue="Application.OpenBrowser" />
+        <item itemvalue="TestNG.OpenBrowserSoftAssertion.validData" />
+        <item itemvalue="TestNG.OpenBrowserSoftAssertion" />
+        <item itemvalue="TestNG.OpenBrowserHardAssertion" />
+        <item itemvalue="JUnit.OpenBrowserHardAssertion" />
+        <item itemvalue="JUnit.OpenBrowserHardAssertion.validData" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +133,7 @@
       <workItem from="1658749708356" duration="4873000" />
       <workItem from="1658924082920" duration="4881000" />
       <workItem from="1658931050041" duration="6490000" />
-      <workItem from="1659113747715" duration="6711000" />
+      <workItem from="1659113747715" duration="9854000" />
     </task>
     <task id="LOCAL-00001" summary="Set up POM">
       <created>1658752451788</created>
@@ -134,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659118857647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="How to use Assertions">
+      <created>1659202586384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659202586384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +184,8 @@
     <MESSAGE value="Set up POM" />
     <MESSAGE value="How to use locators" />
     <MESSAGE value="How to use TestNG annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to use TestNG annotations" />
+    <MESSAGE value="How to use Assertions" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to use Assertions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
