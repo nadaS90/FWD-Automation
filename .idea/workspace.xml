@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="" />
+    <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenBrowserSoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenBrowserSoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OpenBrowserSoftAssertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OpenBrowserSoftAssertion.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +56,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml">
+  <component name="RunManager" selected="TestNG.OpenBrowserSoftAssertion">
     <configuration name="D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
       <shortenClasspath name="NONE" />
@@ -139,10 +144,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OpenBrowserSoftAssertion" />
+        <item itemvalue="TestNG.OpenBrowserSoftAssertion.validData" />
         <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml" />
         <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" />
-        <item itemvalue="TestNG.OpenBrowserSoftAssertion.validData" />
-        <item itemvalue="TestNG.OpenBrowserSoftAssertion" />
         <item itemvalue="TestNG.OpenBrowserHardAssertion" />
       </list>
     </recent_temporary>
@@ -162,7 +167,7 @@
       <workItem from="1658924082920" duration="4881000" />
       <workItem from="1658931050041" duration="6490000" />
       <workItem from="1659113747715" duration="10220000" />
-      <workItem from="1659242608946" duration="1937000" />
+      <workItem from="1659242608946" duration="7115000" />
     </task>
     <task id="LOCAL-00001" summary="Set up POM">
       <created>1658752451788</created>
@@ -213,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659244507552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="How to use Reports">
+      <created>1659244628763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659244628763</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
