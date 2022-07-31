@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3165f0c-63db-4fe3-abbc-7048bea7573b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AmokeTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,23 +53,47 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml">
+  <component name="RunManager" selected="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml">
     <configuration name="D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/AmokeTest.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MAVENSelenium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Regression.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,10 +132,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" />
+      <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml" />
+      <item itemvalue="TestNG.OpenBrowserHardAssertion" />
+      <item itemvalue="TestNG.OpenBrowserSoftAssertion" />
+      <item itemvalue="TestNG.OpenBrowserSoftAssertion.validData" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" />
         <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/Regression.xml" />
+        <item itemvalue="TestNG.D:/NADA-FWD/Selenium/MAVENSelenium/AmokeTest.xml" />
         <item itemvalue="TestNG.OpenBrowserSoftAssertion.validData" />
         <item itemvalue="TestNG.OpenBrowserSoftAssertion" />
         <item itemvalue="TestNG.OpenBrowserHardAssertion" />
@@ -136,7 +164,7 @@
       <workItem from="1658924082920" duration="4881000" />
       <workItem from="1658931050041" duration="6490000" />
       <workItem from="1659113747715" duration="10220000" />
-      <workItem from="1659242608946" duration="1335000" />
+      <workItem from="1659242608946" duration="1623000" />
     </task>
     <task id="LOCAL-00001" summary="Set up POM">
       <created>1658752451788</created>
@@ -173,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659207671063</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="How to use XML files">
+      <created>1659243990097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659243990097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +231,8 @@
     <MESSAGE value="How to use TestNG annotations" />
     <MESSAGE value="How to use Assertions" />
     <MESSAGE value="How to use Soft Assertions" />
-    <option name="LAST_COMMIT_MESSAGE" value="How to use Soft Assertions" />
+    <MESSAGE value="How to use XML files" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to use XML files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
