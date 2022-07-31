@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -29,5 +30,18 @@ public class LoginPage {
         By logoutmsg = By.cssSelector("a[href=\"/logout\"]");
         WebElement logoutmsgElm =driver.findElement(logoutmsg);
         return logoutmsgElm;
+    }
+
+    public void LoginSteps(String username, String password, WebDriver driver)
+    {
+        // Enter Username with POM
+        usernamePOM(driver).clear();
+        usernamePOM(driver).sendKeys(username);
+
+        //Enter password with POM
+        passwordPOM(driver).sendKeys(password);
+        passwordPOM(driver).sendKeys(Keys.ENTER);
+        //tomsmith
+        //SuperSecretPassword!
     }
 }

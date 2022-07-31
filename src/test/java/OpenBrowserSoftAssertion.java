@@ -31,18 +31,13 @@ public class OpenBrowserSoftAssertion {
         login = new LoginPage();
     }
 
+
     @Test
     public void validData() throws InterruptedException {
 
         driver.navigate().to("https://the-internet.herokuapp.com/login");
 
-       // Enter Username with POM
-        login.usernamePOM(driver).clear();
-        login.usernamePOM(driver).sendKeys("tomsmith");
-
-        //Enter password with POM
-        login.passwordPOM(driver).sendKeys("SuperSecretPassword!");
-        login.passwordPOM(driver).sendKeys(Keys.ENTER);
+        login.LoginSteps("tomsmith","SuperSecretPassword!", driver);
 
         //Waiting time
         Thread.sleep(3000);
@@ -78,20 +73,15 @@ public class OpenBrowserSoftAssertion {
     public void invalidData(){
      //  driver.findElement(By.linkText("Form Authentication")).click();
        driver.navigate().to("https://the-internet.herokuapp.com/login");
-       login.usernamePOM(driver).clear();
-       login.usernamePOM(driver).sendKeys("invalid");
-       login.passwordPOM(driver).sendKeys("Super");
-       login.passwordPOM(driver).sendKeys(Keys.ENTER);
+
+       login.LoginSteps("tomsmi","password", driver);
 
        String expectedResult = "Your username is invalid!";
        String actualResult = login.flashPOM(driver).getText();
        System.out.println("actual result: "+ actualResult);
        Assert.assertTrue(actualResult.contains(expectedResult), "Error Message: text not matching");
 
-
    }
-
-
 
     @AfterTest
     public  void closeBrowser ()throws  InterruptedException{
