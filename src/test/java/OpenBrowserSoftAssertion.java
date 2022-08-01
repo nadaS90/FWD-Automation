@@ -28,7 +28,7 @@ public class OpenBrowserSoftAssertion {
         Thread.sleep(3000);
 
         // Create new objects
-        login = new LoginPage();
+        login = new LoginPage(driver);
     }
 
 
@@ -37,7 +37,7 @@ public class OpenBrowserSoftAssertion {
 
         driver.navigate().to("https://the-internet.herokuapp.com/login");
 
-        login.LoginSteps("tomsmith","SuperSecretPassword!", driver);
+        login.LoginSteps("tomsmith","SuperSecretPassword!");
 
         //Waiting time
         Thread.sleep(3000);
@@ -49,14 +49,14 @@ public class OpenBrowserSoftAssertion {
         // First Assertion
         System.out.println("first Assertion");
         String expectedResult = "You logged into a secure";
-        String actualResult = login.flashPOM(driver).getText();
+        String actualResult = login.flashPOM().getText();
         System.out.println("actual result: " + actualResult);
         soft.assertEquals(actualResult.contains(expectedResult), true, "First Assertion Fail");
         soft.assertTrue(actualResult.contains(expectedResult), "First Assertion True ");
 
         //Second Assertion
         System.out.println("second Assertion");
-        soft.assertTrue(login.logoutPOM(driver).isDisplayed(), "Second Assertion Fail");
+        soft.assertTrue(login.logoutPOM().isDisplayed(), "Second Assertion Fail");
 
         //Third Assertion for URL
         System.out.println("third Assertion");
@@ -74,10 +74,10 @@ public class OpenBrowserSoftAssertion {
      //  driver.findElement(By.linkText("Form Authentication")).click();
        driver.navigate().to("https://the-internet.herokuapp.com/login");
 
-       login.LoginSteps("tomsmi","password", driver);
+       login.LoginSteps("tomsmi","password");
 
        String expectedResult = "Your username is invalid!";
-       String actualResult = login.flashPOM(driver).getText();
+       String actualResult = login.flashPOM().getText();
        System.out.println("actual result: "+ actualResult);
        Assert.assertTrue(actualResult.contains(expectedResult), "Error Message: text not matching");
 
